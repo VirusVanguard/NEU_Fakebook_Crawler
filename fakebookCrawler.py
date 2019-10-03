@@ -241,6 +241,8 @@ def goCrawl(csrf_token, session_id, host, referer, home_page, home_link):
 '''
 
 if __name__ == '__main__':
+    
+    global s
 
     csrfToken, newSessionID, host, referer, homePage, homeLink = Connect()
 
